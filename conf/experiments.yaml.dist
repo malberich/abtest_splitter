@@ -1,0 +1,14 @@
+general:
+  excluded_group: -1
+buckets:
+  audience:
+    key: __audience__splitter
+experiments:
+  - key: Sample A/B test
+    audience: 25
+    status: 1
+    groups:
+      - key: "Control"
+        size: 50
+      - key: "Variant"
+        size: 50
