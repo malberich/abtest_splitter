@@ -79,4 +79,4 @@ ENV/
 env.bak/
 venv.bak/
 
-!conf/experiments.yaml.dist
+!conf/experiments.dist.yaml
