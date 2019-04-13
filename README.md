@@ -53,7 +53,7 @@ Another important configuration deals with the value that should be assigned to 
 
 ## Downloading and running the app
 
-Clone the repository
+Clone the repository, create the virtual environment and install the requirements
 
 ```shell
 $ git clone https://github.com/malberich/abtest_splitter.git .
@@ -61,7 +61,13 @@ $ git clone https://github.com/malberich/abtest_splitter.git .
 ...
 
 $ cd abtest_splitter
+$ virtualenv -p python3 --site-system-packages ./venv
+...
+$ pip install -r requirements.txt
+...
 ```
+
+Now your environment should be ready to run the app.
 
 Copy the experiments.dist.yaml:
 
