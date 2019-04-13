@@ -211,7 +211,7 @@ Uses the same configuration as in the HTTP interface, with the main difference o
 Although this project has a very narrow goal on the basic implementation of a random splitter, There are three areas where I plan to expect improving that tool:
 
 * Variety: Decouple the hashing algorithm in order to implement alternative methods.
-* Evaluation: Introduce a test suite for algorithms evaluation. Nothing necessarily comprehensive, but could be
+* Evaluation: Introduce a test suite for algorithms evaluation. Nothing necessarily comprehensive, but could be used in further checks to automate the testing and review of the algorithms.
 * Speed: Find ways to perform such splits faster, by either moving some parts of the process to python, numpy or both.
 
 Finally, please note that this project does not aim to replace any other similar opensource tool available in the market, but it's my hope that it can serve as a basecamp for quick findings and understanding of such pseudorandom generation strategies.
